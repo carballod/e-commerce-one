@@ -1,0 +1,32 @@
+:root{
+    --background-color-blanco: #FFFFFF;
+    --background-color-azul: #2A7AE4;
+    --background-color-azul-claro: #EAF2FD;
+    --background-color-preto: #F5F5F5;
+    --background-color-preto-claro: #C5C5C5;
+    --background-color-preto-oscuro: #E5E5E5;
+
+
+    /*Colores de Fuente*/
+    --color-fuente-azul: #2A7AE4;
+    --color-fuente-blanco: #FFFFFF;
+    --color-fuente-preto: #464646;
+    --color-fuente-preto-claro: #A2A2A2;
+    --color-fuente-preto-50: #A2A2A2;
+    --color-fuente-rojo: red;
+
+    /*Colores de botones*/
+    --color-boton-azul: #2A7AE4;
+
+    /*color de sombra*/
+    --color-sombra-plomo-oscuro: #2f2f2f;
+    --color-sombra-plomo-claro: #8f8f8f;
+    --color-sombra-preto-30: #C8C8C8;
+
+    /*fuentes*/
+    --fuente-releway: 'Raleway', cursive;
+}
+body{
+    font-family: 'Raleway', cursive;
+    font-size: 1rem;
+}
