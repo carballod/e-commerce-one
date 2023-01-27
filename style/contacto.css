@@ -1,0 +1,70 @@
+.contacto{
+    background: var(--background-color-azul-claro);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fuente-releway);
+    padding: 1rem;
+}
+
+.contacto__quienes-somos{
+    display: flex;
+    flex-direction: column;
+}
+.contacto__caja-logo{
+    text-align: center;
+}
+.contacto__caja-link{
+    display: flex;
+    flex-direction: column;
+}
+.contacto__logo{
+}
+.contacto__link{
+    color: var(--color-fuente-preto);
+    font-size: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.contacto__caja-form{
+    padding-top: 1rem;
+}
+.contacto__titulo{
+    color: var(--color-fuente-preto);
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: .5rem;
+}
+.contacto__form{}
+.contacto__form__box{
+    padding-bottom: 1rem;
+}
+.contacto__form__box__error{
+    color: var(--color-fuente-rojo);
+}
+.contacto__form__input{
+    width: calc(100% - 1rem);
+}
+.contacto__form__label{
+    display: none;
+    font-size: .75rem;
+}
+.contacto__form__error{
+    color: var(--color-fuente-rojo);
+    display: none;
+    font-size: .75rem;
+}
+textarea{
+    font-family: var(--fuente-releway);
+    height: 82px;
+    resize: none;
+}
+.contacto__form__boton{
+    background: var(--background-color-azul);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 var(--color-sombra-plomo-oscuro);
+    color: var(--color-fuente-blanco);
+    font-size: .875rem;
+    padding: .75rem 1rem;
+}
