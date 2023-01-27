@@ -1,0 +1,57 @@
+.productos{
+    background: var(--background-color-preto);
+    font-family: var(--fuente-releway);
+    /*padding: 2rem 0 2rem 2rem;*/
+    padding: 2rem;
+}
+
+.productos__cabecera{
+    padding-bottom: 1rem;
+}
+.productos__cabecera_titulo{
+    color: var(--color-fuente-preto);
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+.productos__cabecera__agregar{
+    background: var(--background-color-azul);
+    border: none;
+    border-radius: 5px;
+    color: var(--color-fuente-blanco);
+    font-size: 0.875rem;
+    padding: .75rem 1rem;
+}
+.productos__caja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.productos__box{
+    position: relative;
+    width: 47%;
+}
+.productos__box__imagen{
+    width: 100%;
+}
+.productos__box__edicion{
+    position: absolute;
+    right: 0;
+    top: 11px;
+    color: var(--color-fuente-blanco);
+    font-size: 24px;
+}
+.productos__box__basurero, .productos__box__lapiz{
+    padding-right: .688rem;
+    text-shadow: 1px 0px 2px var(--color-sombra-plomo-oscuro);
+}
+.productos__box__titulo, .productos__box__numero{
+    color: var(--color-fuente-preto);
+    font-size: .875rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+.productos__box__precio{
+    color: var(--color-fuente-preto);
+    font-size: 1rem;
+    font-weight: 700;
+}

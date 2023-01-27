@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fuente-releway);
+    justify-content: center;
+    padding: 2rem 0;
+    text-align: center;
+}
+.footer__titulo{
+    color: var(--color-fuente-preto);
+    font-size: 1rem;
+}
+.footer__anio{
+    color: var(--color-fuente-preto);
+    font-size: 1rem;
+}

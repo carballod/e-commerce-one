@@ -1,0 +1,18 @@
+form{
+    color: var(--color-fuente-preto);
+}
+input, textarea{
+    color: var(--color-fuente-preto);
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .75rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 0 var(--color-sombra-preto-30);
+    outline: none;
+    resize: none;
+}
+input::placeholder, textarea::placeholder{
+    color: var(--color-fuente-preto-50);
+}

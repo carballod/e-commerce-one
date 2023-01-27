@@ -1,0 +1,40 @@
+.cabecera__menu{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.cabecera__busqueda{
+    display: flex;
+    align-items: center;
+}
+.cabecera__logo{
+    height: 1.75rem;
+}
+.cabacera__search{
+    display: none;
+}
+.cabecera__formbuscar__box-boton{
+    display: none;
+}
+.cabecera__menu-admin{
+    background: var(--background-color-blanco);
+    border-color: var(--color-boton-azul);
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0;
+    color: var(--color-fuente-azul);
+    padding: .75rem 0.938rem;
+}
+.cabecera__login{
+    background: var(--background-color-blanco);
+    border-color: var(--color-boton-azul);
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0;
+    color: var(--color-fuente-azul);
+    padding: 0.75rem 2.969rem;
+}
+.cabacera__logo-search{
+    height: 1.5rem;
+    width: 1.5rem;
+}
