@@ -38,7 +38,36 @@
     height: 1.5rem;
     width: 1.5rem;
 }
-
+@media screen and (min-width: 768px){
+    .cabecera__menu{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .cabecera__formbuscar__box{
+        position: relative;
+    }
+    .cabacera__search{
+        background: var(--background-color-preto);
+        border: none;
+        border-radius: 50px;
+        display: block;
+        margin-left: 2rem;
+        padding: 1rem 1rem;
+        width: 272px;
+    }
+    .cabecera__formbuscar__box-boton{
+        display: block;
+        background: none;
+        border: none;
+        font-size: 24px;
+        position: absolute;
+        right: 11px;
+        top: 10%;
+    }
+    .cabacera__logo-search{
+        display: none;
+    }
+}
 @media screen and (min-width: 1024px){
     .cabecera__menu{
         padding: 2rem 9.5rem;
