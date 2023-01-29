@@ -1,0 +1,20 @@
+.formlogin{
+    font-family: var(--fuente-releway);
+    background: var(--background-color-preto);
+    padding-top: 5.75rem;
+    padding-bottom: 5.75rem;
+    text-align: center;
+    /*width: 17.188rem;*/
+}
+.formlogin .contacto__titulo{
+    color: var(--color-fuente-preto);
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.formlogin .contacto__form__boton{
+    padding: .75rem 2.125rem;
+}
+.formlogin input{
+    padding: 0.625rem .75rem;
+    width: 17.188rem;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cabecera.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/formulario.css">
+
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+<header class="cabecera">
+    <div class="cabecera__menu">
+        <section class="cabecera__busqueda">
+            <img class="cabecera__logo" src="assets/Logo.svg" alt="Logo e-commerse AluraGeek">
+            <form class="cabecera__formbuscar">
+                <div class="cabecera__formbuscar__box">
+                    <input class="cabacera__search" type="search" placeholder="¿Qué deseas buscar? ">
+                    <button class="cabecera__formbuscar__box-boton">&#128269;</button>
+                </div>
+            </form>
+        </section>
+        <img class="cabacera__logo-search" src="assets/Search.svg" alt="Logo de Busqueda">
+    </div>
+</header>
+<main>
+    <section class="formlogin">
+
+        <h2 class="contacto__titulo">Iniciar Sesión</h2>
+        <form class="contacto__form" action="productos.html">
+            <div class="contacto__form__box">
+                <input type="email" class="contacto__form__input" placeholder="Escriba su correo electrónico" required>
+                <label class="contacto__form__label">Email</label>
+                <span class="contacto__form__error">Este campo no puede estar vacio</span>
+            </div>
+            <div class="contacto__form__box">
+                <input type="password" class="contacto__form__input" placeholder="Escriba su contraseña" required>
+                <label class="contacto__form__label">Email</label>
+                <span class="contacto__form__error">Este campo no puede estar vacio</span>
+            </div>
+            <button class="contacto__form__boton">Entrar</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <section class="contacto">
+        <div class="contacto__quienes-somos">
+            <div class="contacto__caja-logo">
+                <img class="contacto__logo" src="assets/Logo.svg">
+            </div>
+            <div class="contacto__caja-link">
+                <a class="contacto__link" href="">Quienes Somos</a>
+                <a class="contacto__link" href="">Politica de Privacidad</a>
+                <a class="contacto__link" href="">Programa de Fidelidad</a>
+                <a class="contacto__link" href="">Nuestras Tiendas</a>
+                <a class="contacto__link" href="">Quiero ser Franquiciado</a>
+                <a class="contacto__link" href="">Anuncie aquí</a>
+            </div>
+        </div>
+        <div class="contacto__caja-form">
+            <h2 class="contacto__titulo">Hable con nosotros</h2>
+            <form class="contacto__form" action="">
+                <div class="contacto__form__box">
+                    <input type="text" class="contacto__form__input" placeholder="Nombre" required>
+                    <label class="contacto__form__label">Nombre</label>
+                    <span class="contacto__form__error">Esto campo no puede estar vacio</span>
+                </div>
+                <div class="contacto__form__box">
+                    <input type="email" class="contacto__form__input" placeholder="Email" required>
+                    <label class="contacto__form__label">Email</label>
+                    <span class="contacto__form__error">Esto campo no puede estar vacio</span>
+                </div>
+                <div class="contacto__form__box">
+                    <textarea class="contacto__form__input" placeholder="Escribe tu mensaje" required></textarea>
+                    <label class="contacto__form__label">Nombre</label>
+                    <span class="contacto__form__error">Esto campo no puede estar vacio</span>
+                </div>
+                <button class="contacto__form__boton">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <p class="footer__titulo">Desarrollado por Marwin Flores</p>
+        <p class="footer__anio">2022</p>
+    </section>
+</footer>
+</body>
+</html>
