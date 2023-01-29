@@ -18,3 +18,9 @@
     padding: 0.625rem .75rem;
     width: 17.188rem;
 }
+
+@media screen and (min-width: 1024px){
+    .formlogin input{
+        width: 26.438rem;
+    }
+}

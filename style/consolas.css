@@ -49,3 +49,24 @@
     font-size: .875rem;
     font-weight: 700;
 }
+
+@media screen and (min-width: 768px) {
+    .consolas{
+        padding: 2rem;
+    }
+    .consolas__box{
+        width: 21.4%;
+    }
+    .consolas__cabecera__ver, .consolas__box__ver{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .consolas {
+        padding: 0 9.5rem;
+        padding-top: 4rem;
+    }
+    .consolas__box{
+        width: 15%;
+    }
+}

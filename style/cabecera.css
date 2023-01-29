@@ -38,3 +38,21 @@
     height: 1.5rem;
     width: 1.5rem;
 }
+
+@media screen and (min-width: 1024px){
+    .cabecera__menu{
+        padding: 2rem 9.5rem;
+    }
+    .cabecera__logo{
+        height: 3.125rem;
+    }
+
+    .cabacera__search{
+        width: 24.563rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .cabecera__login{
+        font-size: 1rem;
+    }
+}

@@ -49,3 +49,25 @@
     font-size: .875rem;
     font-weight: 700;
 }
+
+
+@media screen and (min-width: 768px) {
+    .clasificados{
+        padding: 2rem;
+    }
+    .clasificados__box{
+        width: 21.4%;
+    }
+    .clasificados__cabecera__ver, .clasificados__box__ver{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .clasificados {
+        padding: 0 9.5rem;
+        padding-top: 4rem;
+    }
+    .clasificados__box{
+        width: 15%;
+    }
+}

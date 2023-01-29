@@ -67,3 +67,40 @@ textarea{
     font-size: .875rem;
     padding: .75rem 1rem;
 }
+
+@media screen and (min-width: 768px){
+    .contacto{
+        flex-direction: row;
+        padding: 2rem;
+    }
+    .contacto__quienes-somos{
+        width: 33%;
+    }
+    .contacto__caja-logo{
+        text-align: left;
+    }
+    .contacto__link{
+        text-align: left;
+        padding-top: 1.5rem;
+    }
+    .contacto__caja-form{
+        width: 70%;
+    }
+}
+@media screen and (min-width: 1024px){
+    .contacto{
+        padding: 4rem 9.5rem;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .contacto__quienes-somos{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 110px;
+        width: 50%;
+    }
+    .contacto__caja-form{
+        width: 50%;
+    }
+}
+

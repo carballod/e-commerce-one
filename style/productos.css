@@ -55,3 +55,30 @@
     font-size: 1rem;
     font-weight: 700;
 }
+
+@media screen and (min-width: 768px){
+    .productos__cabecera{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .productos__box{
+        width: 23%;
+    }
+}
+@media screen and (min-width: 1024px){
+    .productos{
+        padding: 4rem 9.5rem 0 9.5rem  ;
+    }
+    .productos__cabecera_titulo{
+        font-size: 2rem;
+    }
+    .productos__cabecera__agregar{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .productos__box{
+        width: 15.5%;
+        margin-bottom: 4rem;
+    }
+}
