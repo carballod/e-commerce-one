@@ -17,8 +17,7 @@
     display: flex;
     flex-direction: column;
 }
-.contacto__logo{
-}
+
 .contacto__link{
     color: var(--color-fuente-preto);
     font-size: 1rem;
@@ -35,7 +34,7 @@
     font-weight: 700;
     padding-bottom: .5rem;
 }
-.contacto__form{}
+
 .contacto__form__box{
     padding-bottom: 1rem;
 }
